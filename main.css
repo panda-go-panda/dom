@@ -1,0 +1,447 @@
+@font-face {
+    font-family: 'Graublau Sans Pro';
+    src: url('/fonts/Graublau_Sans_Pro/graublauSans-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Graublau Sans Pro';
+    src: url('/fonts/Graublau_Sans_Pro/graublauSansItalic.otf') format('opentype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Graublau Sans Pro';
+    src: url('/fonts/Graublau_Sans_Pro/graublauSans-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Graublau Sans Pro';
+    src: url('/fonts/Graublau_Sans_Pro/graublauSansBoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Graublau Sans Book';
+    src: url('/fonts/Graublau_Sans_Pro/graublauSansBookItalic.otf') format('opentype');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Graublau Sans Light';
+    src: url('/fonts/Graublau_Sans_Pro/graublauSans-Light.otf') format('opentype');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Graublau Sans Pro', sans-serif;
+    height: 100%;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+section {
+    display: block;
+    height: 100%;
+}
+
+.main-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.section-content {
+    background-color:  rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    max-width: 360px;
+    width: auto;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 300;
+    font-family: 'Graublau Sans Pro', sans-serif;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: -20px;
+    display: inline;
+}
+
+.title span {
+    font-style: italic;
+    position: absolute;
+    padding-left: 10px;
+    font-family: 'Graublau Sans Book', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+.navbar-right {
+    padding-right: 35px;
+}
+
+.icons {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    margin-left: -202px;
+    padding-left: 0;
+    z-index: 1;
+}
+
+header .icons {
+    bottom: 20px;
+}
+
+.icons li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 30px;
+}
+
+.icons img {
+    height: 40px;
+}
+
+.carousel,
+.carousel-inner,
+.carousel .item {
+    height: 100%;
+}
+
+.carousel .item {
+    background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    text-align: left;
+    text-shadow: none;
+}
+
+.carousel-caption p {
+    color: #000000;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.carousel-control {
+    opacity: 1;
+    width: 5%;
+    text-shadow: none;
+    background-image: none !important;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+    color: #FFDF00;
+}
+
+.carousel-control:focus,
+.carousel-control:hover {
+    opacity: 1;
+}
+
+.col-1 {
+    float: left;
+    margin-top: 20px;
+}
+
+.col-2 {
+    float: left;
+    margin-top: 20px;
+}
+
+.about .col-2 {
+    margin-left: 96px;
+}
+
+
+
+.col-2 span {
+    font-style: italic;
+    padding-left: 10px;
+    font-family: 'Graublau Sans Book', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.icons-space {
+    margin-left: -14px;
+}
+
+.yellow-pattern {
+    background: url(/icons/pattern.png);
+    background-repeat: repeat;
+    background-size: 23px 29px;
+    height: 100%;
+}
+
+.grey-pattern {
+    background-color: #FAFAFA;
+}
+
+
+
+.about .grey-pattern {
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.about span {
+    font-style: italic;
+    padding-left: 10px;
+    font-weight: 400;
+    font-family: 'Graublau Sans Book', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.about .col-md-1 {
+    padding: 0;
+}
+
+.about .row {
+    margin: 0;
+}
+
+.about .row .col-md-9 {
+    padding-left: 20px;
+}
+
+.about .col-md-4 {
+    padding-left: 0;
+}
+
+.about .nav-col ul {
+    margin-top: 40px;
+    list-style-type: none;
+    font-size: 16px;
+    padding-left: 0;
+}
+
+.about .nav-col li {
+    padding-bottom: 10px;
+    font-family: 'Graublau Sans Light', sans-serif;
+    font-size: 20px;
+}
+
+.about .nav-col .active {
+    font-style: italic;
+    text-shadow: 1px 0 #333;
+}
+
+.about .nav-col img {
+    width: 240px;
+}
+
+.about .tab-pane {
+    position: relative;
+}
+
+.about a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.bold-text {
+    font-size: 24px;
+    color: #000000;
+    margin: 20px 0;
+    font-family: 'Graublau Sans Book', sans-serif;
+}
+
+.about .tab-pane li {
+    font-size: 28px;
+    color: #000000;
+    font-family: 'Graublau Sans Book', sans-serif;
+    list-style-position: inside;
+    font-style: italic;
+    
+}
+
+.about .col-2 {
+    margin-top: 40px;
+}
+
+.about .col-1 {
+    margin-top: 40px;
+}
+
+.about .nav-col {
+    padding-left: 10px;
+}
+
+.about .no-float {
+    float: none;
+}
+
+.about .col-md-10 {
+    padding-left: 20px;
+}
+
+.additional-caption {
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 10px 30px 10px 20px;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+    text-shadow: none;
+}
+
+.additional-caption,
+.additional-caption p {
+    font-size: 20px;
+    font-family: 'Graublau Sans Pro', sans-serif;
+}
+
+.col-caption {
+    width: 250px;
+    font-family: 'Graublau Sans Light', sans-serif;
+    font-size: 21px;
+}
+
+.white-caption {
+    color: #FFFFFF !important;
+    text-shadow: 0 0 4px #000000;
+}
+
+.about .tab-content {
+    padding-top: 40px;
+    font-family: 'Graublau Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    font-weight: 700;
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-top: 0px;
+}
+
+.logo-black {
+    color: #000000;
+    text-shadow: 0 0 4px #FFFFFF;
+}
+
+.logo-white {
+    color: #FFFFFF;
+    text-shadow: 0 0 4px #000000;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    z-index: 20;
+    font-family: 'Graublau Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+footer .navbar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 0;
+    padding-left: 20px;
+}
+
+footer .navbar li {
+    list-style-type: none;
+    display: inline;
+}
+
+footer .navbar li:before {
+    content: ' / ';
+    color: #CACACA;
+    padding: 5px;
+}
+
+footer .navbar li:first-child:before {
+    content: none;
+}
+
+footer .nav a,
+footer .nav a:focus,
+footer .nav a:hover {
+    display: inline;
+    background: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer .active {
+    font-style: italic;
+}
+
+.yellow footer {
+    background: #FED91A;
+}
+
+.yellow footer .nav a,
+.yellow footer .nav a:focus,
+.yellow footer .nav a:hover {
+    color: #000;
+}
+
+.yellow footer .navbar li:before {
+    color: #FFF;
+}
+
+.yellow-triangle-pattern {
+    background: url(/icons/triangle.png);
+    background-repeat: repeat;
+    background-size: 40px 35px;
+}
+
+.scroll-icon {
+    width: 33px;
+    height: 39px;
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+}
+
+.main-logo {
+    width: 96px;
+    line-height: 40px;
+}
