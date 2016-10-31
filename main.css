@@ -1,39 +1,39 @@
 @font-face {
     font-family: 'Graublau Sans Pro';
-    src: url('/fonts/Graublau_Sans_Pro/graublauSans-Regular.otf') format('opentype');
+    src: url('/dom/fonts/Graublau_Sans_Pro/graublauSans-Regular.otf') format('opentype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Graublau Sans Pro';
-    src: url('/fonts/Graublau_Sans_Pro/graublauSansItalic.otf') format('opentype');
+    src: url('/dom/fonts/Graublau_Sans_Pro/graublauSansItalic.otf') format('opentype');
     font-style: italic;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Graublau Sans Pro';
-    src: url('/fonts/Graublau_Sans_Pro/graublauSans-Bold.otf') format('opentype');
+    src: url('/dom/fonts/Graublau_Sans_Pro/graublauSans-Bold.otf') format('opentype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Graublau Sans Pro';
-    src: url('/fonts/Graublau_Sans_Pro/graublauSansBoldItalic.otf') format('opentype');
+    src: url('/dom/fonts/Graublau_Sans_Pro/graublauSansBoldItalic.otf') format('opentype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Graublau Sans Book';
-    src: url('/fonts/Graublau_Sans_Pro/graublauSansBookItalic.otf') format('opentype');
+    src: url('/dom/fonts/Graublau_Sans_Pro/graublauSansBookItalic.otf') format('opentype');
     font-style: italic;
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Graublau Sans Light';
-    src: url('/fonts/Graublau_Sans_Pro/graublauSans-Light.otf') format('opentype');
+    src: url('/dom/fonts/Graublau_Sans_Pro/graublauSans-Light.otf') format('opentype');
 }
 
 html {
@@ -209,7 +209,7 @@ header .icons {
 }
 
 .yellow-pattern {
-    background: url(/icons/pattern.png);
+    background: url('/dom/icons/pattern.png');
     background-repeat: repeat;
     background-size: 23px 29px;
     height: 100%;
@@ -428,7 +428,7 @@ footer .active {
 }
 
 .yellow-triangle-pattern {
-    background: url(/icons/triangle.png);
+    background: url('/dom/icons/triangle.png');
     background-repeat: repeat;
     background-size: 40px 35px;
 }
